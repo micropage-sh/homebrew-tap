@@ -7,16 +7,16 @@ class Micropage < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/micropage-sh/cli/releases/download/v2.0.0/micropage-darwin-arm64.tar.gz"
-      sha256 "df74c3926d7ff10916d4b7f11d6ca30bce0e2566c23b57e0ff8ca413f9363431"
+      sha256 "51a2635f97b4a067f1eed8af9f2b9d2bb4ec34a92bcd6f7d5f472884bcd612c5"
     else
       url "https://github.com/micropage-sh/cli/releases/download/v2.0.0/micropage-darwin-amd64.tar.gz"
-      sha256 "90fb0f53e4002dd0bcf1289c926e9576ebfa9c33ff51857896cae83a2935ad84"
+      sha256 "96ee902525361ec103982e22b15e08da91ed81a48852fc914f2297d9d62eadd4"
     end
   end
 
   on_linux do
     url "https://github.com/micropage-sh/cli/releases/download/v2.0.0/micropage-linux-amd64.tar.gz"
-    sha256 "7101aa00003d646ef06cc54264dfbadad0e95effc00cb945161d875051d80556"
+    sha256 "97872815adaf91cd271f28aeffda8e2a1a797153b1c7b109b51536f7b51aea26"
   end
 
   def install
