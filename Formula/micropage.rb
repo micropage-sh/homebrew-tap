@@ -1,5 +1,5 @@
 class Micropage < Formula
-  desc "CLI for micropage.sh - create, sync, and publish microsites"
+  desc "Micropage CLI: keep your .page files in git and publish static sites"
   homepage "https://github.com/micropage-sh/cli"
   version "2.6.2"
   license "MIT"
