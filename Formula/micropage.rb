@@ -1,22 +1,22 @@
 class Micropage < Formula
   desc "Keep .page files in git and publish static sites to micropage.sh"
   homepage "https://github.com/micropage-sh/cli"
-  version "2.6.7"
+  version "2.9.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/micropage-sh/cli/releases/download/v2.6.7/micropage-darwin-arm64.tar.gz"
-      sha256 "5a10049e61c37d9332f97e7a69a415cceadc388edc6b64210848916d39746af9"
+      url "https://github.com/micropage-sh/cli/releases/download/v2.9.0/micropage-darwin-arm64.tar.gz"
+      sha256 "2e9bcb7b3bafce33f6c987932e4af3538e896a2a4e8e35c1b10713e14e45519d"
     else
-      url "https://github.com/micropage-sh/cli/releases/download/v2.6.7/micropage-darwin-amd64.tar.gz"
-      sha256 "7b215b3b8467165ea8404dc6cd6dc625d6b81d689fd31b3775d0c20404c79f45"
+      url "https://github.com/micropage-sh/cli/releases/download/v2.9.0/micropage-darwin-amd64.tar.gz"
+      sha256 "87bda0dba954dba8b890071fc9d80e0687d9d85b5af1cee3e7b90cdb025b5822"
     end
   end
 
   on_linux do
-    url "https://github.com/micropage-sh/cli/releases/download/v2.6.7/micropage-linux-amd64.tar.gz"
-    sha256 "c316fa5d2da81c58c29f9a385da1f75f00d5c685807407b30513cd9f5f38a61d"
+    url "https://github.com/micropage-sh/cli/releases/download/v2.9.0/micropage-linux-amd64.tar.gz"
+    sha256 "3a3c7c39eae132a0bf5303ffd5bd2b74026a0f9bfb92aa0d0cf90a4424db3848"
   end
 
   def install
